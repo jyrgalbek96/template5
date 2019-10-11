@@ -1,315 +1,294 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
-        rel="stylesheet">
-    <title>Финальный макет</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Грузовые перевозки</title>
 </head>
 
 <body>
-    <div id="main">
+    <!-- subheader -->
+    <div class="page">
+        <header class="tophead">
+            <div class="wrapper tophead__conainer">
+                <!-- language -->
+                <nav class="language">
+                    <ul class="language__list">
+                        <li class="language__item">
+                            <a href="#" class="language__link">РУС</a>
+                        </li>
 
-        <!-- Шапка -->
-        <div class="page page--head">
-            <div class="wrapper">
-                <header class="head">
-                    <div class="head__box-logo">
-                        <div class="logo">Константин Константинов</div>
+                        <li class="language__item">
+                            <a href="#" class="language__link">ENG</a>
+                        </li>
+
+                        <li class="language__item">
+                            <a href="#" class="language__link">FR</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- contact -->
+                <div class="contact">
+                    <a href="#" class="contact__link">8 (800) 123-45-67</a>
+                </div>
+
+                <!-- contact -->
+                <div class="contact">
+                    <a href="#" class="contact__link">sales@log.ru</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- head -->
+        <header class="head">
+            <div class="wrapper head__container">
+                <div class="head__box">
+                    <!-- logo -->
+                    <div class="logo head__logo">
+                        <a href="#">
+                            <img src="img/logo.png" class="logo__img">
+                        </a>
                     </div>
 
-                    <nav class="head__box-menu">
+                    <!-- contact -->
+                    <div class="contact">
+                        <img src="img/local.png" class="contact__icon head__icon">
+                        <a href="#" class="contact__link">Наши офисы</a>
+                    </div>
+                </div>
+
+                <div class="head__box">
+                    <!-- menu -->
+                    <nav class="menu">
                         <ul class="menu__list">
-                            <a href="#">
-                                <div class="menu__item menu__item_active">Обо мне</div>
-                            </a>
-                            <a href="#">
-                                <div class="menu__item">Профессиональный опыт</div>
-                            </a>
-                            <a href="#">
-                                <div class="menu__item">Контакты</div>
-                            </a>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">О компании</a>
+                            </li>
+
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Вакансии</a>
+                            </li>
+
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Контакты</a>
+                            </li>
                         </ul>
                     </nav>
-                </header>
+
+                    <img src="img/menu-button.svg" alt="" class="menu__mobile">
+                </div>
             </div>
-        </div>
+        </header>
 
-        <!-- О нас -->
-        <div class="page page--about">
+        <!-- lowerhead -->
+        <div class="lowerhead">
             <div class="wrapper">
-                <div class="about">
-
-                    <div class="description">
-                        <div class="description__title title-description">
-                            <img src="img/icon.png" alt="Иконка обо мне" class="title-description__icon">
-                            <h2 class="title-description__title">Обо мне</h2>
-                        </div>
-                        <p class="description__text">Меня зовут Контстантин Константинов я занимаюсь версткой сайтов.
-                            <br>Могу верстать сайты любой сложности, дайте только попробовать.</p>
-                    </div>
-
-                    <div class="about__container">
-                        <div class="about__img"></div><!-- Картинка -->
-                        <div class="list-info about__list-info">
-                            <div class="list-info__item">
-                                <span>Имя</span><span>Константин Константинов</span>
-                            </div>
-                            <div class="list-info__item">
-                                <span>Родился</span><span>12 Октября 1985</span>
-                            </div>
-                            <div class="list-info__item">
-                                <span>Адрес</span><span>г. Бишкек</span>
-                            </div>
-                            <div class="list-info__item">
-                                <span>Email</span><a href="#"><span class="list-info__item-active">myemail@mail.com</span></a>
-                            </div>
-                            <div class="list-info__item">
-                                <span>Телефон</span><span>+34 123 456 789</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="lowerhead__block">
+                    <h2 class="title lowerhead__title">Грузовые перевозки</h2>
+                    <p class="lowerhead__text">
+                        Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование,
+                        упаковка и хранение грузов
+                    </p>
                 </div>
             </div>
         </div>
 
-        <!-- Резюме -->
-        <div class="page page--resume">
-            <div class="wrapper">
-                <div class="resume">
-                    <div class="description">
-                        <div class="description__title title-description">
-                            <img src="img/experiance.png" alt="Иконка опыт работы" class="title-description__icon">
-                            <h2 class="title-description__title title-description__title--color_dark">Опыт работы</h2>
-                        </div>
-                        <p class="description__text title-description__text--color_dark">Пусть опыта работы у меня не
-                            так много, но я в себя верю и приложу все усилия для того,
-                            чтобы добиться вашего доверия.</p>
+        <!-- content -->
+        <main class="content">
+            <section class="section transportation">
+                <div class="wrapper transportation__container">
+                    <div class="transportation__info">
+                        <div class="line line--margin"></div>
+                        <h2 class="title">Грузоперевозки по европе</h2>
+                        <p class="transportation__text">
+                            Страны Евросоюза, а также Украина, Белоруссия со всеми документами.
+                        </p>
+
+                        <button class="transportation__btn">Подробнее</button>
                     </div>
 
-                    <!-- Последнее место работы -->
-                    <div class="resume__box">
-                        <div class="resume__text">
-                            <div class="resume__info info-resume">
-                                <div class="description ">
-                                    <div class="description__title title-description title-description--line">
-                                        <img src="img/portfolio.png" alt="Иконка место работы" class="title-description__icon">
-                                        <h2 class="title-description__title title-description__title--color_dark title-description__title--size_m">
-                                            Последнее место работы</h2>
-                                    </div>
-                                </div>
-                                <div class="info-resume__aboutMe">
-                                    <h3 class="info-resume__title">Верстальщик</h3>
-                                    <span class="info-resume__year">2010 - по настоящее время</span>
-                                    <span class="info-resume__value">www.mail.ru</span>
-                                    <p class="info-resume__text">Praesent commodo cursus magna, vel scelerisque nisl
-                                        consectetur et. Cras mattis consectetur purus sit amet fermentum.
-                                        Aenean eu leo quam ellentesque ornare sem lacinia quam. Pursus magna, vel
-                                        scelerisque nisl consectetur et. Cras mattis
-                                        sectetur purus sit amet fermenllentesque ornare sem lacinia quam.</p>
-                                </div>
+                    <!-- transportation image block -->
+                    <div class="transportation__img">
+                        <img src="image/galery/img1.png" alt="">
+                    </div>
 
-                                <div class="info-resume__aboutMe">
-                                    <h3 class="info-resume__title">Преподователь</h3>
-                                    <span class="info-resume__year">2008 - 2010</span>
-                                    <span class="info-resume__value cf">КГТУ им. Раззакова</span>
-                                    <p class="info-resume__text">Praesent commodo cursus magna, vel scelerisque nisl
-                                        consectetur et. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo
-                                        quam ellentesque ornare sem lacinia quam</p>
-                                </div>
+                    <div class="transportation__control">
+                        <a href="" class="transportation__link">след.<img src="img/arrow next.png" alt=""
+                                class="transportation__icon" style="margin-left: 31px;"></a>
+                        <a href="" class="transportation__link"><img src="img/arrow previous.png" alt=""
+                                class="transportation__icon" style="margin-right: 31px;">назад</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- services -->
+            <section class="section services">
+                <div class="wrapper">
+                    <!-- line -->
+                    <div class="line line--margin"></div>
+                    <h2 class="title">Услуги</h2>
+
+                    <!-- service card -->
+                    <div class="service_card service_card--margin_top">
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
                             </div>
 
-                            <!-- Образование -->
-                            <div class="resume__info info-resume info-resume--margin_top">
-                                <div class="description ">
-                                    <div class="description__title title-description title-description--line">
-                                        <img src="img/education.png" alt="Иконка образование" class="title-description__icon">
-                                        <h2 class="title-description__title title-description__title--color_dark title-description__title--size_m">
-                                            Образование</h2>
-                                    </div>
-                                </div>
-                                <div class="info-resume__aboutMe">
-                                    <h3 class="info-resume__title">Программист</h3>
-                                    <span class="info-resume__year">2000 - 2005. Бишкек</span>
-                                    <span class="info-resume__value cf">КГТУ им. Раззакова</span>
-                                    <p class="info-resume__text">Praesent commodo cursus magna, vel scelerisque nisl
-                                        consectetur et. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo
-                                        quam ellentesque ornare sem lacinia quam</p>
-                                </div>
-
-                                <div class="info-resume__aboutMe">
-                                    <h3 class="info-resume__title">Компьютерные курсы</h3>
-                                    <span class="info-resume__year">2015 - 2016. Бишкек</span>
-                                    <span class="info-resume__value cf">RedMouse</span>
-                                    <p class="info-resume__text">Praesent commodo cursus magna, vel scelerisque nisl
-                                        consectetur et. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo
-                                        quam ellentesque ornare sem lacinia quam</p>
-                                </div>
-                            </div>
+                            <p class="service_card__text">Авиаперевозки</p>
                         </div>
 
-                        <!-- Прогресс -->
-                        <div class="progress">
-                            <div class="progress__container">
-                                <div class="description ">
-                                    <div class="description__title title-description">
-                                        <img src="img/graphics.png" alt="Иконка образование" class="title-description__icon">
-                                        <h2 class="title-description__title title-description__title--color_dark title-description__title--size_s">
-                                            Графика</h2>
-                                    </div>
-                                </div>
-
-                                <div class="progress__list">
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_blue" value="92" max="100"></progress>
-                                        <p class="progress__name">Photoshop</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_blue" value="62" max="100"></progress>
-                                        <p class="progress__name">Illustrator</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_blue" value="68" max="100"></progress>
-                                        <p class="progress__name">Inscape</p>
-                                    </div>
-                                </div>
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
                             </div>
 
-                            <div class="progress__container progress__container--margin_top">
-                                <div class="description ">
-                                    <div class="description__title title-description">
-                                        <img src="img/layout.png" alt="Иконка образование" class="title-description__icon">
-                                        <h2 class="title-description__title title-description__title--color_dark title-description__title--size_s">
-                                            Верстка</h2>
-                                    </div>
-                                </div>
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
 
-                                <div class="progress__list">
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_cyan" value="89" max="100"></progress>
-                                        <p class="progress__name">HTML</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_cyan" value="96" max="100"></progress>
-                                        <p class="progress__name">CSS</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_cyan" value="90" max="100"></progress>
-                                        <p class="progress__name">Responsive</p>
-                                    </div>
-                                </div>
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
                             </div>
 
-                            <div class="progress__container progress__container--margin_top">
-                                <div class="description ">
-                                    <div class="description__title title-description">
-                                        <img src="img/quality.png" alt="Иконка образование" class="title-description__icon">
-                                        <h2 class="title-description__title title-description__title--color_dark title-description__title--size_s">
-                                            Личные качества</h2>
-                                    </div>
-                                </div>
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
 
-                                <div class="progress__list">
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_red" value="88" max="100"></progress>
-                                        <p class="progress__name">Трудолюбие</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_red" value="96" max="100"></progress>
-                                        <p class="progress__name">Легкообучаемость</p>
-                                    </div>
-                                    <div class="progress__item">
-                                        <progress class="progress__bar progress__bar--bg_red" value="90" max="100"></progress>
-                                        <p class="progress__name">Целестремленность</p>
-                                    </div>
-                                </div>
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
                             </div>
+
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
+
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
+                            </div>
+
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
+
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
+                            </div>
+
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
+
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
+                            </div>
+
+                            <p class="service_card__text">Авиаперевозки</p>
+                        </div>
+
+                        <div class="service_card__item">
+                            <div class="service_card__rangle">
+                                <img src="img/the plane.png" alt="" class="service_card__img">
+                            </div>
+
+                            <p class="service_card__text">Авиаперевозки</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!-- Контакты -->
-        <div class="page page--contact">
-            <div class="wrapper">
-                <div class="contact">
+            <section class="section company">
+                <div class="wrapper company__container">
 
-                    <div class="description">
-                        <div class="description__title title-description">
-                            <img src="img/mobile.png" alt="Иконка телефон" class="title-description__icon">
-                            <h2 class="title-description__title">Контакты</h2>
-                        </div>
-                        <p class="description__text">Напишите мне письмо</p>
+                    <div class="company__info">
+                        <!-- line -->
+                        <div class="line line--margin"></div>
+                        <h2 class="title">О компании</h2>
+                        <p class="company__text">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без
+                            заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                        </p>
                     </div>
 
-                    <div class="contact__container">
-                        <div class="contact__info">
-                            <div class="description ">
-                                <div class="description__title title-description">
-                                    <img src="img/phone.png" alt="Иконка место работы" class="title-description__icon">
-                                    <h2 class="title-description__title title-description__title--size_m">
-                                        Контактная информация</h2>
-                                </div>
-                            </div>
-
-                            <div class="list-info">
-                                <div class="list-info__item">
-                                    <span>Адрес:</span>
-                                    <span class="list-info__right">Константин Константинов<br>
-                                        ул. Праживальского д. 65<br>
-                                        г. Бишкек 720000</span>
-                                </div>
-                                <div class="list-info__item">
-                                    <span>Телефон:</span><span>+ 996 555 555 555</span>
-                                </div>
-                                <div class="list-info__item">
-                                    <span>Email:</span><span>myemail@email.com</span>
-                                </div>
-                            </div>
-
-                            <div class="social">
-                                <div class="social__fb"></div>
-                                <div class="social__tw"></div>
-                                <div class="social__in"></div>
-                            </div>
+                    <!-- company card -->
+                    <div class="company_card">
+                        <div class="company_card__item">
+                            <p class="company_card__count">48</p>
+                            <p class="company_card__name">офисов</p>
+                            <p class="company_card__subname">В Европе и СНГ</p>
                         </div>
 
-                        <form action="#" name="form" method="POST" class="form">
-                            <h3 class="form__name">Имя</h3>
-                            <input class="form__input">
+                        <div class="company_card__item">
+                            <p class="company_card__count">361</p>
+                            <p class="company_card__name">грузовиков</p>
+                            <p class="company_card__subname">Volvo, Scania</p>
+                        </div>
 
-                            <h3 class="form__name">Email</h3>
-                            <input class="form__input">
+                        <div class="company_card__item">
+                            <!-- There img -->
+                        </div>
+                        <div class="company_card__item">
+                            <!-- There img -->
+                        </div>
 
-                            <h3 class="form__name">Сообщение</h3>
-                            <textarea class="form__textarea"></textarea>
+                        <div class="company_card__item">
+                            <p class="company_card__count company_card__count--size_sm">1500</p>
+                            <p class="company_card__name">сотрудников</p>
+                            <p class="company_card__subname">профессионалов </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-                            <button class="form__button cf">Отправить</button>
-                        </form>
+        <!-- map -->
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12075.179706455936!2d-74.13979450000001!3d40.8324679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1569767889699!5m2!1sru!2sus"
+            frameborder="0" allowfullscreen=""></iframe>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="wrapper footer__container">
+                <div class="footer__box">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="">
+                            <img src="img/logo2.png" class="logo__img">
+                        </a>
+                    </div>
+
+                    <div class="contact">
+                        <!-- address -->
+                        <address class="address">123456, Санкт-Петербург, Невский пр-кт 127</address>
+                        <a href="#" class="contact__link footer__link color_black">sales@log.ru</a>
+                    </div>
+                </div>
+
+                <div class="footer__box">
+                    <div class="contact">
+                        <a href="#" class="contact__link footer__link">8 (800) 123-45-67</a>
+                        <br><a href="#" class="contact__link footer__link">8 (800) 123-45-67</a>
+                    </div>
+
+                    <div class="contact">
+                        <!-- developer -->
+                        <a href="#" class="contact__link footer__link color_black">Разработано - D-E-N.ru</a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Подвал -->
-        <div class="page page--footer">
-            <div class="wrapper">
-                <footer class="footer">
-                    <div class="footer__copyright">
-                        Все права защищены 2016г.
-                    </div>
-                    <a href="#">
-                        <div class="footer__buttonUp">Наверх</div>
-                    </a>
-                </footer>
-            </div>
-        </div>
+        </footer>
     </div>
 </body>
+
 </html>
